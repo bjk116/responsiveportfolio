@@ -61,6 +61,7 @@ h3 {
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  height: auto;
 }
 
 #logo {
@@ -236,4 +237,67 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media only screen and (max-width: 980px){
+
+}
+
+@media only screen and (max-width: 768px){
+  .main-section{
+    margin-top:0%;
+    width:700px;
+    margin-left:34px;
+  }
+  .container{
+    max-width:768px;
+    height:50px;
+  }
+  .sidebar{
+    float:left;
+    margin-left:34px;
+    max-width:650px;
+
+  }
+  #connect{
+    width:500px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .work{
+    width:500px;
+    height:500px;
+  }
+  .work h3{
+    bottom:150px;
+  }
+  .main-section{
+    width:600px;
+    margin-left:20px;
+  }
+  footer{
+    width:640px;
+  }
+  .sidebar{
+    width:600px;
+    margin-left:20px;
+  }
+  #connect{
+    width:600px;
+  }
+  nav{
+    width:100%;
+  }
+  nav a{
+    text-align: center;
+    width:30%;
+  }
+  #logo{
+    height:80px;
+    width:620px;
+  }
+  .masthead{
+    width:640px;
+  }
 }
