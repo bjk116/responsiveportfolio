@@ -275,6 +275,7 @@ input[type=submit] {
   .main-section{
     width:600px;
     margin-left:20px;
+    margin-top:5px;
   }
   footer{
     width:640px;
@@ -297,7 +298,11 @@ input[type=submit] {
     height:80px;
     width:620px;
   }
-  .masthead{
+  #masthead{
     width:640px;
+    position: static;
+  }
+  #main-container{
+    padding-top: 1px;
   }
 }
